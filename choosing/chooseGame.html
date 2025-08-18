@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>choosing Game</title>
+    <link rel="stylesheet" href="chooseGame.css">
+</head>
+<body>
+    <h1>המשחקים שלנו</h1>
+    <hr id="line">
+    <div id="containerGames">
+        <a href="../choosing/building.html" class="games" id="dobble"><img src="../pictures/dobble.jpg" alt="דבל" /></a> 
+        <a href="../choosing/building.html" class="games" id="bonus"><img src="../pictures/fruits.png" alt="בונוס" /></a>
+        <a href="../choosing/building.html" class="games" id="chess"><img src="../pictures/chess.jpg" alt="שחמט" /></a>
+        <a href="../Definitions/Definitions.html" class="games" id="fourline"><img src="../pictures/4line.jpg" alt="ארבע בשורה" /></a>
+        <a href="../entrancePage/login.html"><button id="logOutBtn" onclick="logOut()"> LogOut</button></a>
+    </div> 
+    <script>
+      function logOut(){
+        localStorage.removeItem('name');
+          }
+          if(localStorage.name==undefined){
+          window.location.href = "../entrancePage/login.html";
+}
+    </script> 
+</body>
+</html>

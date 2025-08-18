@@ -1,0 +1,129 @@
+
+body{
+	font-family:cursive;
+    background-image: url(../pictures/background.png);
+}
+.logo{
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: -6%;
+}
+
+
+ form{
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 8% auto;
+    box-shadow: 5px 10px 10px 10px #7f7c7c;
+    padding: 4%;
+ }
+
+
+input {
+    width: 280px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+button {
+    display: inline-block;
+    color:white;
+
+    width: 280px;
+    height: 50px;
+
+    padding: 0 30px;
+    background:red;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+    text-align: center;
+    margin: 4% auto;
+    letter-spacing: 0.05em;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.sign-up {
+    background: #1e06f7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* אנימציה */
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+    animation: animatzia 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes animatzia {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+.log-in{
+    font-size: 20px;
+}
+.sign-up{
+    font-size: 20px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+}
+#date{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: red;
+    padding: 10px;
+    font-size: 18px; 
+  }
+  @media screen and (max-width: 600px) {
+    .logo{
+        width: 72%;
+        height: auto;
+        margin-left: 3%;
+      
+    }
+ form{
+    width: 350px;
+    height: 500px;
+    border-radius: 5px;
+ }
+ 
+ #date{
+    padding: 15;
+    font-size: 15px;
+  }
+  }
+
+
+
+
+
+

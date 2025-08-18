@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="overlay">
+            <img src="../pictures/logo.png" class="logo" >
+            <div id="allLogin">
+                <div class="login">
+                    <form name='form-login' action="../choosing/chooseGame.html" onsubmit="check()">
+                        <h1 class="glow">SIGN IN</h1>
+                        <i class="fa fa-user-circle fa-lg"></i>
+                        <input type="email" id="userName" placeholder="@Username" required><br/>
+                        <i class="fa fa-key fa-lg"></i>
+                        <input type="password" id="userPw" placeholder="Password" required><br/>
+                        <button  class="log-in" type="submit">Log In</button>
+                        <button class="btn submits sign-up" onclick="redirectToPage(event)">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <p id="date"></p>
+            <script type="text/javascript" src="../entrancePage/login.js"></script>
+    </div>
+</body>
+
+</html>

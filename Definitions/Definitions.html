@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definitions</title>
+    <link rel="stylesheet" href="Definition.css">
+</head>
+<body>
+    <form name='form-login' action="../homePage/p.html" onsubmit="check()">
+    <input type="text" id="player-1" placeholder="player-1" required><br/>
+    <label for="player1Color">בחר צבע לשחקן 1:</label>
+    <select id="player1Color">
+        <option value="Red">אדום</option>
+        <option value="Yellow">צהוב</option>
+    </select><br/>
+    <input type="text" id="player-2" placeholder="player-2" required><br/>
+    <label for="player2Color">בחר צבע לשחקן 2:</label>
+    <select id="player2Color">
+        <option value="Red">אדום</option>
+        <option value="Yellow">צהוב</option>
+    </select><br/>
+    <input type="submit" value="אישור" id="submit" >
+    </form>
+    <a href="../entrancePage/login.html"><button onclick="logOut()"> LogOut</button></a>
+    <script src="../Definitions/Definitions.js"></script>
+</body>
+</html>
