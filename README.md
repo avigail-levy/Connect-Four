@@ -38,7 +38,7 @@ This structure allows clear separation of concerns and makes the project easy to
 ## 📸 Screenshots
 
 ### Game Board
-![Game Screenshot](pictures/game-screenshot.png)
+![Game Screenshot](pictures/gameScreen.png)
 
 
 ## ▶️ How to Run
