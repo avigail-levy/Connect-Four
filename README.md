@@ -24,15 +24,15 @@ It demonstrates skills in **DOM manipulation, event handling, localStorage, and 
 The project is organized into multiple folders.  
 Each folder contains its own **HTML, CSS, and JavaScript** files to keep the code modular and well-structured.
 
-- **entrancePage/** → Login and user signup pages  
-- **choosing/** → Game selection page  
-- **game/** → Main Connect Four game board and logic  
-- **win/** → Winner screen and game summary  
-- **tops/** → Scoreboard and list of best results  
-- **homePage/** → Homepage and navigation  
-- **music/** → Sound effects used in the game  
-- **pictures/** → Images and visual assets  
-- **Definitions/** → Shared constants and helper files  
+- **entrancePage/** -Login and user signup pages  
+- **choosing/** -Game selection page  
+- **game/** -Main Connect Four game board and logic  
+- **win/** -Winner screen and game summary  
+- **tops/** -Scoreboard and list of best results  
+- **homePage/** -Homepage and navigation  
+- **music/** -Sound effects used in the game  
+- **pictures/** -Images and visual assets  
+- **Definitions/** -Shared constants and helper files  
 
 This structure allows clear separation of concerns and makes the project easy to navigate.
 ## 📸 Screenshots
